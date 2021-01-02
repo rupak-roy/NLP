@@ -1,13 +1,14 @@
 #NLP 
 
-
+STEPS:
+Copy your TEXT or upload the text,pdf etc file and hit Analyse. 
+Happy Analyzing!
 
 Requirements:
 
 streamlit
 pandas
 neattext
-
 base64
 time
 seaborn
