@@ -1,4 +1,5 @@
-#NLP 
+#NLP _beta_v1.
+Any suggestion or collaborative work to make it better open source version. Most Welcome and i love too! 
 
 STEPS:
 Copy your TEXT or upload the text,pdf etc file and hit Analyse. 
