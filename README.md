@@ -2,7 +2,7 @@
 
 
 
-~ Requirements:
+Requirements:
 
 streamlit
 pandas
