@@ -131,7 +131,7 @@ def main():
                 # st.write(entity_result)
 
                 entity_result = render_entities(raw_text)
-                stc.html(entity_result, height=1000, scrolling=True)
+                stc.html(entity_result, height=300, scrolling=True)
                 
                 
             with st.beta_expander("Summary using LexRank Approach"):
@@ -259,7 +259,7 @@ def main():
                 # st.write(entity_result)
 
                 entity_result = render_entities(raw_text)
-                stc.html(entity_result, height=1000, scrolling=True)
+                stc.html(entity_result, height=300, scrolling=True)
                 
             with st.beta_expander("Summary using LexRank Approach"):
                 st.text("Disclaimer: LexRank is an unsupervised approach to text summarization based on graph-based centrality scoring of sentences. The main idea is that sentences “recommend” other similar sentences to the reader. Thus, if one sentence is very similar to many others, it will likely be a sentence of great importance. The importance of this sentence also stems from the importance of the sentences “recommending” it. Thus, to get ranked highly and placed in a summary, a sentence must be similar to many sentences that are in turn also similar to many other sentences. This makes intuitive sense and allows the algorithms to be applied to any arbitrary new text.")
