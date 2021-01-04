@@ -223,12 +223,14 @@ def main():
                 with st.beta_expander("Stylography Explorer"):
                     st.info("using Mendelhall Curve")
                     plot_mendelhall_curve_2(raw_text)
-
+                
+                
+                
             with st.beta_expander("Download The Analysis Report"):
                 make_downloadable(token_result_df)
 
     elif choice == "Upload":
-        st.subheader("NLP Task")
+        st.write("Our day to day language can tell you an aboard patterns, insights and sentiments. Explore the prower of Ai: Natural Language Processing algorithim and discover synchronicity that leads one to another. Free to use as much as you like! under GNU General Public License with a Motto #WeRiseByLiftingOthers")
 
         text_file = st.file_uploader("Upload Files", type=["pdf", "docx", "txt"])
         num_of_most_common = st.sidebar.number_input("Min Common Keywords", 5, 15)
@@ -344,7 +346,43 @@ def main():
                 with st.beta_expander("Stylography Explorer"):
                     st.info("using Mendelhall Curve")
                     plot_mendelhall_curve_2(raw_text)
-
+                    
+            if st.sidebar.checkbox("Top Keywords/Tokens"):
+                st.info("Top Keywords/Tokens")
+                processed_text = nfx.remove_stopwords(raw_text)
+                keywords = get_most_common_tokens(
+                    processed_text, num_of_most_common
+                )
+                st.write(keywords)
+            
+            if st.sidebar.checkbox("Part of Speech(Pos) Graph"):
+                fig = plt.figure()
+                sns.countplot(token_result_df["PoS"])
+                plt.xticks(rotation=45)
+                st.pyplot(fig)
+            
+            if st.sidebar.checkbox("Sentiment Analysis"):
+                st.info("Sentiment Analysis")
+                sent_result = get_sentiment(raw_text)
+                st.write(sent_result)
+                
+            if st.sidebar.checkbox("Stylography Analysis"):
+                st.info("using Mendelhall Curve")
+                plot_mendelhall_curve_2(raw_text)
+                
+                                
+            if st.sidebar.checkbox("Plot Word Frequency Graph"):
+                fig = plt.figure()
+                top_keywords = get_most_common_tokens(
+                    processed_text, num_of_most_common
+                )
+                plt.bar(keywords.keys(), top_keywords.values())
+                plt.xticks(rotation=45)
+                st.pyplot(fig)
+                
+            if st.sidebar.checkbox("Plot WordCloud"):
+                plot_wordcloud(raw_text)
+                
             with st.beta_expander("Download The Analysis Report"):
                 make_downloadable(token_result_df)
 
@@ -370,6 +408,18 @@ My Fav. Quote:
 Millions saw the apple fall but only Newton asked why! ~ “Curiosity is the spark of perfection and innovations. So connect with data and discover sync“
 """)
         st.image('img/prism.gif')
+        with st.beta_expander("Suprise!"):
+            st.title("COLLECT YOUR FULL VERSION MACHINE LEARNING APP @ ping_me #socialmedia")
+            st.image('img/office.jpg')
+            st.info("")
+            st.success("")
+            st.warning("")
+            st.error("")
+
+            
+            
+        
+            
 
 
 if __name__ == "__main__":
