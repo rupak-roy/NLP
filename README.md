@@ -22,3 +22,8 @@ rouge
 
 
 However the requirements.txt file attached with the repo is of my env
+
+ANOTHER FULL VERSION MACHINE LEARNING APP @ ping_me #socialmedia #linkedin.
+
+Happy analyzing ENJOY!
+
