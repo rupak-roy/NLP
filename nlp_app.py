@@ -7,13 +7,14 @@ import streamlit.components.v1 as stc
 # Load EDA Pkgs
 import pandas as pd
 
-#MLP packages
+#------------------------------------------------
+#NLP packages
 import spacy 
 from spacy import displacy
 nlp = spacy.load('en_core_web_sm') #Deployment error solution
 from textblob import TextBlob
 from collection import Counter
-
+#-----------------------------------------------------
 # Text Cleaning Pkgs
 import neattext as nt
 import neattext.functions as nfx
