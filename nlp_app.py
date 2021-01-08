@@ -9,7 +9,7 @@ import pandas as pd
 
 #------------------------------------------------
 #NLP packages
-import spacy 
+#import spacy 
 from spacy import displacy
 nlp = spacy.load('en_core_web_sm') #Deployment error solution
 from textblob import TextBlob
