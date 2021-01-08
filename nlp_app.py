@@ -13,7 +13,7 @@ import spacy
 from spacy import displacy
 nlp = spacy.load('en_core_web_sm') #Deployment error solution
 from textblob import TextBlob
-from collection import Counter
+from collections import Counter
 #-----------------------------------------------------
 # Text Cleaning Pkgs
 import neattext as nt
