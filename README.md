@@ -1,4 +1,7 @@
 #NLP _beta_v1.
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://streamlit-roy.herokuapp.com/)
+
 Any suggestion or collaborative work to make it better open source version. Most Welcome and i love too! 
 
 STEPS:
