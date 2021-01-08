@@ -11,8 +11,8 @@ import pandas as pd
 
 #-----------------------------------------------------
 # Text Cleaning Pkgs
-import neattext as nt
-import neattext.functions as nfx
+#import neattext as nt
+#import neattext.functions as nfx 
 
 # utils
 
