@@ -9,7 +9,7 @@ import pandas as pd
 
 #MLP packages
 import spacy 
-from spacy import display
+from spacy import displacy
 nlp = spacy.load('en_core_web_sm') #Deployment error solution
 from textblob import TextBlob
 from collection import Counter
