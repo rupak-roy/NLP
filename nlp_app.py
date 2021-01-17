@@ -24,10 +24,8 @@ timestr = time.strftime("%Y%m%d-%H%M%S")
 
 # Data Viz Pkgs
 #import seaborn as sns
-import matplotlib
 import matplotlib.pyplot as plt
-#import matplotlib
-
+import matplotlib
 matplotlib.use("Agg")
 
 # External Utils
