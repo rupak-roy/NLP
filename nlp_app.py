@@ -11,8 +11,8 @@ import pandas as pd
 
 #-----------------------------------------------------
 # Text Cleaning Pkgs
-#import neattext as nt
-#import neattext.functions as nfx 
+import neattext as nt
+import neattext.functions as nfx 
 
 # utils
 
@@ -180,7 +180,7 @@ def main():
                     
                 with st.beta_expander("Word Statistics"):
                     st.info("Word Statistics")
-                    docx = st.TextFrame(raw_text)
+                    docx = nt.TextFrame(raw_text)
                     st.write(docx.word_stats())
 
                 with st.beta_expander("Top Keywords/Tokens"):
