@@ -180,7 +180,7 @@ def main():
                     
                 with st.beta_expander("Word Statistics"):
                     st.info("Word Statistics")
-                    docx = nt.TextFrame(raw_text)
+                    docx = st.TextFrame(raw_text)
                     st.write(docx.word_stats())
 
                 with st.beta_expander("Top Keywords/Tokens"):
