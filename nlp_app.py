@@ -26,7 +26,7 @@ timestr = time.strftime("%Y%m%d-%H%M%S")
 #import seaborn as sns
 import matplotlib.pyplot as plt
 import matplotlib
-matplotlib.use("Agg")
+matplotlib.use('Agg')
 
 # External Utils
 from app_utils import *
