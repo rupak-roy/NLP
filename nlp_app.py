@@ -238,7 +238,7 @@ def main():
     elif choice == "Upload":
         st.write("Our day to day language can tell you an aboard patterns, insights and sentiments. Explore the prower of Ai: Natural Language Processing algorithim and discover synchronicity that leads one to another. Free to use as much as you like! under GNU General Public License with a Motto #WeRiseByLiftingOthers")
         st.write("ML Analytics[@heroku streamlit-roy](https://streamlit-roy.herokuapp.com/)  Sample Dataset [@rupak-roy Github](https://github.com/rupak-roy/dataset-streamlit) ")
-        st.write("V3 update: Deep Learning module at [@share.streamlit.io rupak-roy/streamlit_deeplearning_analytics] (https://share.streamlit.io/rupak-roy/streamlit_deeplearning_analytics/main/ML.py)")
+        st.write("V3 update: Deep Learning module at [@share.streamlit.io] (https://share.streamlit.io/rupak-roy/streamlit_deeplearning_analytics/main/ML.py)")
         
         text_file = st.file_uploader("Upload Files", type=["pdf", "docx", "txt"])
         num_of_most_common = st.sidebar.number_input("Min Common Keywords", 5, 15)
