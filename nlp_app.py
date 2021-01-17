@@ -397,9 +397,7 @@ def main():
 Hi I’m Bob aka. Rupak Roy. Things i write about frequently on Quora & Linkedin: analytics For Beginners, Data Science, Machine Learning, Deep learning, Natural Language Processing (NLP), Computer Vision, Big Data Technologies, Internet Of Thins and many other random topics of interest.
 I formerly Co-founded various Ai based projects to inspire and nurture the human spirit with the Ai training on how to leverage on how to leverage Ai to solve problems for an exponential growth.
 
-My Career Contour consists of various technologies starting from Masters of Science in Information Technology to Commerce with the privilege to be Wiley certified in various Analytical Domain.
-My alternative internet presences, Facebook, Blogger, Linkedin, Medium, Instagram, ISSUU and with Data2Dimensions
-
+My Career Contour consists of various technologies starting from Masters of Science in Information Technology to Commerce with the privilege to be Wiley certified in various Analytical Domain. My alternative internet presences, Facebook, Blogger, Linkedin, Medium, Instagram, ISSUU and with Data2Dimensions
 If you wish to learn more about Data Science follow me at:
 
 ~ Medium [@rupak.roy](https://medium.com/@rupak.roy)
