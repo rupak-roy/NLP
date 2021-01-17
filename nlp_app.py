@@ -119,7 +119,7 @@ def main():
     choice = st.sidebar.selectbox("NLP Menu", menu)
     if choice == "Home":
         st.write("Our day to day language can tell you an aboard patterns, insights and sentiments. Explore the prower of Ai: Natural Language Processing algorithim and discover synchronicity that leads one to another. Free to use as much as you like! under GNU General Public License with a Motto #WeRiseByLiftingOthers")
-        st.write("Sample Dataset [@rupak-roy Github](https://github.com/rupak-roy/dataset-streamlit) ")
+        st.write("ML Analytics[@heroku streamlit-roy](https://streamlit-roy.herokuapp.com/)  Sample Dataset [@rupak-roy Github](https://github.com/rupak-roy/dataset-streamlit) ")
         st.write("ML Analytics[@heroku streamlit-roy](https://streamlit-roy.herokuapp.com/) ")
         st.write("V3 update: Deep Learning module at [@share.streamlit.io] (https://share.streamlit.io/rupak-roy/streamlit_deeplearning_analytics/main/ML.py)")
         
