@@ -30,6 +30,7 @@ matplotlib.use('Agg')
 
 # External Utils
 from app_utils import *
+import nlp_utils
 
 
 # Fxn to Get Wordcloud
