@@ -26,7 +26,6 @@ timestr = time.strftime("%Y%m%d-%H%M%S")
 #import seaborn as sns
 import matplotlib.pyplot as plt
 import matplotlib
-nltk.download('punkt')
 matplotlib.use('Agg')
 
 # External Utils
@@ -68,7 +67,7 @@ def sumy_summarizer(docx,num=2):
 #------------------TEXT SUMARIZATION PKGS-------------------------
 # Additional Pkgs /Summarization Pkgs
 # TextRank Algorithm
-#from gensim.summarization import summarize 
+from gensim.summarization import summarize 
 
 # LexRank Algorithm
 from sumy.parsers.plaintext import PlaintextParser
