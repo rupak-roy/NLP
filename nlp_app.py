@@ -67,7 +67,7 @@ def sumy_summarizer(docx,num=2):
 #------------------TEXT SUMARIZATION PKGS-------------------------
 # Additional Pkgs /Summarization Pkgs
 # TextRank Algorithm
-from gensim.summarization import summarize 
+#from gensim.summarization import summarize 
 
 # LexRank Algorithm
 from sumy.parsers.plaintext import PlaintextParser
