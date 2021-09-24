@@ -26,6 +26,7 @@ timestr = time.strftime("%Y%m%d-%H%M%S")
 #import seaborn as sns
 import matplotlib.pyplot as plt
 import matplotlib
+nltk.download('punkt')
 matplotlib.use('Agg')
 
 # External Utils
